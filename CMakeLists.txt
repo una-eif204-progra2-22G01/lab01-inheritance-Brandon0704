@@ -8,6 +8,3 @@ include_directories(.)
 include_directories(src)
 
 add_subdirectory(src)
-
-add_executable(lab01_Inheritance
-        src/Lab01Inheritance.cpp)
