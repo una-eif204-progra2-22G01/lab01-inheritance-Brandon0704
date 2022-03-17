@@ -6,12 +6,11 @@
 #define LAB01_INHERITANCE_DERIVED1_H
 
 #include "Base.h"
-class Derived1: Base {
+class Derived1 : public Base {
 public:
     Derived1();
-
     ~Derived1();
-    void do_something();
+    void do_something() const override;
 };
 
 

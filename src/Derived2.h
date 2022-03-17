@@ -6,13 +6,10 @@
 #define LAB01_INHERITANCE_DERIVED2_H
 
 #include "Base.h"
-class Derived2: Base {
+class Derived2 : public Base {
 public:
     Derived2();
-
-    virtual ~Derived2();
-
-    void do_something();
-
+    ~Derived2();
+    void do_something() const override;
 };
 #endif //LAB01_INHERITANCE_DERIVED2_H

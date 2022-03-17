@@ -6,10 +6,8 @@
 
 Derived2::Derived2() {}
 
-Derived2::~Derived2() {
+Derived2::~Derived2() {}
 
-}
-
-void Derived2::do_something() {
-    cout << "Derived2!!!" << endl;
+void Derived2::do_something() const{
+    std::cout << "Derived2!!!" << std::endl;
 }
