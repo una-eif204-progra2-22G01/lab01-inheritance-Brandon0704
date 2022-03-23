@@ -6,4 +6,4 @@ set(SOURCES ${SOURCES})
 
 add_executable(${BINARY}_run ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES} Derived1.cpp Derived1.h Derived2.cpp Derived2.h)
+add_library(${BINARY}_lib STATIC ${SOURCES})
