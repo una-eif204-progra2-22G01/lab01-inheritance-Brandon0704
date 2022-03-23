@@ -6,7 +6,7 @@
 #include "Derived2.h"
 
 // function main begins program execution
-int main(int argc, const char *argv[]) {
+int main() {
     std::cout << "Welcome to the UNA!" << std::endl;
 
     Derived1 derived1;
