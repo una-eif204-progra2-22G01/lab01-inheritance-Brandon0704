@@ -9,5 +9,5 @@ Base::Base() {}
 Base::~Base() {}
 
 void Base::do_something() const {
-cout << "base:";
+std::cout << "base:";
 }
